@@ -1,0 +1,8 @@
+services:
+  xurl:
+    build: .
+    container_name: xurl-auth
+    stdin_open: true
+    tty: true
+    ports:
+      - "8080:8080"
